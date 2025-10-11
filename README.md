@@ -40,6 +40,11 @@ The adapter maintains the connected state, even there's no real permanent connec
 	Placeholder for the next version (at the beginning of the line):
 	**WORK IN PROGRESS**
 -->
+**WORK IN PROGRESS**
+* (mcm1957) Adapter has been migrated to iobroker-community-adapters organisation
+* (mcm1957) Adapter requires node.js >= 20, js-controller >= 6.0.11 and admin >= 7.6.17 now
+* (mcm1957) Dependencies have been updated
+
 ### 1.0.5 (2023-09-23)
 * (chaozmc) set min node version to 18.x (merge pull request #23)
 
