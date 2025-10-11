@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "oekofen-json",
-    "version": "2.0.0-alpha.0",
+    "version": "2.0.0-alpha.1",
     "news": {
+      "2.0.0-alpha.1": {
+        "en": "Adapter has been migrated to iobroker-community-adapters organisation\nAdapter requires node.js >= 20, js-controller >= 6.0.11 and admin >= 7.6.17 now\nDependencies have been updated",
+        "de": "Adapter wurde auf iobroker-community-Adapter Organisation migriert\nAdapter benötigt node.js >= 20, js-controller >= 6.0.11 und admin >= 7.6.17 jetzt\nAbhängigkeiten wurden aktualisiert",
+        "ru": "Адаптер был перенесен в организацию адаптации сообщества йоброкеров\nАдаптер требует node.js >= 20, js-контроллер >= 6.0.11 и админ >= 7.6.17 сейчас\nЗависимости были обновлены",
+        "pt": "Adaptador foi migrado para iobroker-community-adaptadores organização\nO adaptador necessita de nodo.js >= 20, js-controlador >= 6.0.11 e administrador >= 7.6.17 agora\nAs dependências foram atualizadas",
+        "nl": "Adapter is gemigreerd naar iobroker-community-adapters organisatie\nVoor adapters zijn node.js < 20, js-controller <= 6,0.11 en admin <= 7.6.17 nu vereist\nAfhankelijkheden zijn bijgewerkt",
+        "fr": "L'adaptateur a été transféré vers l'organisation iobroker-community-adapters\nAdapter nécessite node.js >= 20, js-controller >= 6.0.11 et admin >= 7.6.17 maintenant\nLes dépendances ont été actualisées",
+        "it": "L'adattatore è stato migrato all'organizzazione di hobroker-community-adapters\nAdattatore richiede node.js >= 20, js-controller >= 6.0.11 e admin >= 7.6.17 ora\nLe dipendenze sono state aggiornate",
+        "es": "Adaptador ha sido migrado a la organización de ibroker-community-adapters\nAdaptador requiere node.js ю= 20, js-controller √= 6.0.11 y admin= 7.6.17 ahora\nSe han actualizado las dependencias",
+        "pl": "Adapter został przeniesiony do organizacji adapterów społeczności iobrokerowej\nAdapter wymaga node.js > = 20, kontroler js- i admin > = 7.6.17\nZaktualizowano zależności",
+        "uk": "Перехідник мігрований до організації iobroker-community-adapters\nАдаптер вимагає node.js >= 20, js-controller >= 6.0.11 і admin >= 7.6.17 тепер\nЗалежність було оновлено",
+        "zh-cn": "适应者已迁移到职业经纪人-社区适应者组织\n适配器需要节点.js >= 20,js控制器 >= 6.0.11和admin >= 7.6.17 现在\n依赖关系已更新"
+      },
       "2.0.0-alpha.0": {
         "en": "Adapter has been migrated to iobroker-community-adapters organisation\nAdapter requires node.js >= 20, js-controller >= 6.0.11 and admin >= 7.6.17 now\nDependencies have been updated",
         "de": "Adapter wurde auf iobroker-community-Adapter Organisation migriert\nAdapter benötigt node.js >= 20, js-controller >= 6.0.11 und admin >= 7.6.17 jetzt\nAbhängigkeiten wurden aktualisiert",
@@ -80,19 +93,6 @@
         "pl": "Wykorzystywany rozległy obiekt, używając błędnego hasła (fixes Issue #18)\nW przeciwnym razie zaprzestano przygotowania do przetargu po 10 nieudanych prośbach\nUstalono pytanie, czy powstanie ponad 50 obiektów najwyższego poziomu",
         "uk": "Виправлено створення об'єкта при використанні неправильного пароля (фікси Випуск No18)\nДодано лічильник для зупинки адаптера після 10 невдалих запитів\nДодано перевірку, якщо буде створено більше 50 топ-рівневих елементів",
         "zh-cn": "在使用错误的密码(第18号法案)时,确定广泛的目标的产生\n在10个请求未成功之后,添加了制止适应行动的办法\n如果要建立50多个最高层次的object,则增加检查。"
-      },
-      "1.0.0": {
-        "en": "Push version to v1.0.0 as the code seems to be considerable as first stable release",
-        "de": "Push-Version auf v1.0.0, da der Code scheint beträchtlich als erste stabile Freigabe",
-        "ru": "Push версия для v1.0.0, поскольку код кажется значительным, как первый стабильный релиз",
-        "pt": "Push versão para v1.0.0 como o código parece ser considerável como primeira versão estável",
-        "nl": "Drukversie naar V1.0, zoals de code als eerste stabiele vrijlating lijkt",
-        "fr": "Version poussée vers v1.0.0 car le code semble considérable comme première version stable",
-        "it": "Premere la versione a v1.0.0 come il codice sembra essere notevole come primo rilascio stabile",
-        "es": "Puja la versión a v1.0.0 como el código parece ser considerable como primera versión estable",
-        "pl": "Wersja Push do v1.0.0, jako że kod wydaje się być znaczący w pierwszym stabilnym wydaniu",
-        "uk": "Push версія v1.0.0 як показує код, як перший стабільний реліз",
-        "zh-cn": "由于第一稳定释放似乎相当大。"
       }
     },
     "titleLang": {
