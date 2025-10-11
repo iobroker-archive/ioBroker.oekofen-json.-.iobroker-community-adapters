@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "oekofen-json",
-    "version": "2.0.0-alpha.1",
+    "version": "2.0.0-alpha.2",
     "news": {
+      "2.0.0-alpha.2": {
+        "en": "Adapter has been migrated to iobroker-community-adapters organisation\nAdapter requires node.js >= 20, js-controller >= 6.0.11 and admin >= 7.6.17 now\nDependencies have been updated",
+        "de": "Adapter wurde auf iobroker-community-Adapter Organisation migriert\nAdapter benötigt node.js >= 20, js-controller >= 6.0.11 und admin >= 7.6.17 jetzt\nAbhängigkeiten wurden aktualisiert",
+        "ru": "Адаптер был перенесен в организацию адаптации сообщества йоброкеров\nАдаптер требует node.js >= 20, js-контроллер >= 6.0.11 и админ >= 7.6.17 сейчас\nЗависимости были обновлены",
+        "pt": "Adaptador foi migrado para iobroker-community-adaptadores organização\nO adaptador necessita de nodo.js >= 20, js-controlador >= 6.0.11 e administrador >= 7.6.17 agora\nAs dependências foram atualizadas",
+        "nl": "Adapter is gemigreerd naar iobroker-community-adapters organisatie\nVoor adapters zijn node.js < 20, js-controller <= 6,0.11 en admin <= 7.6.17 nu vereist\nAfhankelijkheden zijn bijgewerkt",
+        "fr": "L'adaptateur a été transféré vers l'organisation iobroker-community-adapters\nAdapter nécessite node.js >= 20, js-controller >= 6.0.11 et admin >= 7.6.17 maintenant\nLes dépendances ont été actualisées",
+        "it": "L'adattatore è stato migrato all'organizzazione di hobroker-community-adapters\nAdattatore richiede node.js >= 20, js-controller >= 6.0.11 e admin >= 7.6.17 ora\nLe dipendenze sono state aggiornate",
+        "es": "Adaptador ha sido migrado a la organización de ibroker-community-adapters\nAdaptador requiere node.js ю= 20, js-controller √= 6.0.11 y admin= 7.6.17 ahora\nSe han actualizado las dependencias",
+        "pl": "Adapter został przeniesiony do organizacji adapterów społeczności iobrokerowej\nAdapter wymaga node.js > = 20, kontroler js- i admin > = 7.6.17\nZaktualizowano zależności",
+        "uk": "Перехідник мігрований до організації iobroker-community-adapters\nАдаптер вимагає node.js >= 20, js-controller >= 6.0.11 і admin >= 7.6.17 тепер\nЗалежність було оновлено",
+        "zh-cn": "适应者已迁移到职业经纪人-社区适应者组织\n适配器需要节点.js >= 20,js控制器 >= 6.0.11和admin >= 7.6.17 现在\n依赖关系已更新"
+      },
       "2.0.0-alpha.1": {
         "en": "Adapter has been migrated to iobroker-community-adapters organisation\nAdapter requires node.js >= 20, js-controller >= 6.0.11 and admin >= 7.6.17 now\nDependencies have been updated",
         "de": "Adapter wurde auf iobroker-community-Adapter Organisation migriert\nAdapter benötigt node.js >= 20, js-controller >= 6.0.11 und admin >= 7.6.17 jetzt\nAbhängigkeiten wurden aktualisiert",
@@ -80,19 +93,6 @@
         "pl": "Addditioning (ang.)\nThe annual Copyright Year (ang.)\nAdded releaseconfig.json for release-script (ang.)",
         "uk": "Додано відсутні переклади\nОновлений рік авторського права\nДоданий релізconfig.json для реліз-script",
         "zh-cn": "增加失踪翻译\n最新版权年\n释放原状的增删"
-      },
-      "1.0.1": {
-        "en": "Fixed extensive object creation when using a wrong password (fixes Issue #18)\nAdded counter to stop adapter after 10 unsuccessful requests\nAdded check if there would be more than 50 top-level-objects to be created",
-        "de": "Feste umfangreiche Objekt-Erstellung bei Verwendung eines falschen Passworts (fixes Issue #18)\nZusätzlicher Zähler zum Stoppadapter nach 10 erfolglosen Anfragen\nZusätzlicher Check, wenn mehr als 50 Top-Level-Objekte erstellt werden",
-        "ru": "Исправлена обширная разработка объекта при использовании неправильного пароля (фиксы No18)\nДобавлен счетчик для остановки адаптера после 10 неудачных запросов\nДобавлена проверка, если бы было больше, чем 50 сверхуровневых объектов, которые будут созданы",
-        "pt": "Criação de objetos extensos fixos ao usar uma senha errada (fixa Edição #18)\nContador adicionado para parar o adaptador após 10 solicitações mal sucedidas\nAdicionado verificar se haveria mais de 50 top-level-objects para ser criado",
-        "nl": "Verlengde object creatie als je een verkeerd wachtwoord gebruikt\nAangepaste tegenhanger om te stoppen met adapter na 10 onverwachte verzoeken\nControleer of er meer dan 50 topobjecten gemaakt worden",
-        "fr": "Création d'objets étendus fixes lors de l'utilisation d'un mot de passe incorrect (fixes Numéro #18)\nAjout du compteur pour arrêter l'adaptateur après 10 requêtes infructueuses\nVérifiez s'il y aurait plus de 50 objets de haut niveau à créer",
-        "it": "Creazione di oggetti estesi riparati quando si utilizza una password sbagliata (fissi Numero 18)\nContatore aggiunto per arrestare adattatore dopo 10 richieste senza successo\nAggiunto il controllo se ci sarebbe più di 50 oggetti di alto livello da creare",
-        "es": "Creación de objetos extensos fijos al usar una contraseña incorrecta (fixes Edición #18)\nAñadido contador para detener el adaptador después de 10 solicitudes sin éxito\nComprobación adicional si habría más de 50 objetos de alto nivel que se crearán",
-        "pl": "Wykorzystywany rozległy obiekt, używając błędnego hasła (fixes Issue #18)\nW przeciwnym razie zaprzestano przygotowania do przetargu po 10 nieudanych prośbach\nUstalono pytanie, czy powstanie ponad 50 obiektów najwyższego poziomu",
-        "uk": "Виправлено створення об'єкта при використанні неправильного пароля (фікси Випуск No18)\nДодано лічильник для зупинки адаптера після 10 невдалих запитів\nДодано перевірку, якщо буде створено більше 50 топ-рівневих елементів",
-        "zh-cn": "在使用错误的密码(第18号法案)时,确定广泛的目标的产生\n在10个请求未成功之后,添加了制止适应行动的办法\n如果要建立50多个最高层次的object,则增加检查。"
       }
     },
     "titleLang": {
