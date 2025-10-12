@@ -91,9 +91,12 @@
       "oekofen",
       "pellematic"
     ],
-    "license": "MIT",
+    "tier": 2,
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "oekofen-json.png",
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.oekofen-json/main/admin/oekofen-json.png",
@@ -104,7 +107,6 @@
     "compact": true,
     "connectionType": "local",
     "dataSource": "poll",
-    "materialize": true,
     "adminUI": {
       "config": "json"
     },
