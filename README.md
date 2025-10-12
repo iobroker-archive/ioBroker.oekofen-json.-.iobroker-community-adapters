@@ -35,6 +35,10 @@ at which the adapter tries to pull the updates.
 
 The adapter maintains the connected state, even there's no real permanent connection. If the device sends an error or the adapter isn't able to contact the OekoFEN controller it set's the connected state to false. For example this could happen if there are too many requests on the controller, which answers with HTTP 401 then. Under normal conditions the rate limit of the controller shouldn't be hit (2,5 seconds between requests). 
 
+## Credits
+
+This adapter would not have been possible without the great work of Markus Feiler (chaozmc) <https://github.com/chaozmc>, who created previous releases of this adapter.
+
 ## Changelog
 <!--
 	Placeholder for the next version (at the beginning of the line):
