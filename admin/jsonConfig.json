@@ -8,9 +8,11 @@
             "items": {
                 "oekofenIp" : {
                     "type": "text",
+                    "xs": 12,
                     "sm": 12,
                     "md": 6,
                     "lg": 6,
+                    "xl": 4,
                     "label": "OekoFEN IP",
                     "help": "The IP of your OekoFEN touch device in the network"
                 },
@@ -18,9 +20,11 @@
                     "type": "number",
                     "min": 1,
                     "max": 65535,
+                    "xs": 12,
                     "sm": 12,
                     "md": 6,
                     "lg": 6,
+                    "xl": 4,
                     "label": "TCPPort",
                     "help": "The Port you've set on your OekoFEN touch device to listen on"
                 },
@@ -28,9 +32,11 @@
                     "type": "password",
                     "repeat": true,
                     "visible": true,
+                    "xs": 12,
                     "sm": 12,
                     "md": 6,
                     "lg": 6,
+                    "xl": 4,
                     "label": "Password",
                     "help": "Enter the password you've set on your OekoFEN touch device"
                 },
@@ -38,9 +44,11 @@
                     "type": "number",
                     "min": 10,
                     "max": 240,
+                    "xs": 12,
                     "sm": 12,
                     "md": 6,
                     "lg": 6,
+                    "xl": 4,
                     "label": "Poll-Interval (s)",
                     "help": "How often should the adapter pull the updates from the device"
                 }
